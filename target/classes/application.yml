@@ -1,0 +1,15 @@
+server:
+  port: 9292
+
+spring:
+  application:
+    name: exception-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/User
+
+    username: postgres
+    password: Password
+
+  jpa:
+    hibernate:
+      ddl-auto: create
